@@ -17,10 +17,10 @@
   NumOfCubeSizes = len(cubeSize);
   
 //uncomment to render
-testDevice();
+XYTestDevice();
 
 //Module Definition
-module testDevice(){
+module XYTestDevice(){
   //Draw stock
   hull(){
     translate([0,-Spacing,0])cube([Spacing+StockX,Spacing,StockZ], center=false);
