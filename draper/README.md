@@ -13,7 +13,7 @@
 2. Using ImageJ, import all images in the consolidate folder (File --> Import --> Image Sequence)
 3. Invert the images in the stack (Edit --> Invert)
 4. Draw a line 300 units wide across the width of the channel
-![draw line](https://github.com/CIDARLAB/Makerfluidics/tree/master/drawper/img/line.png)
+![draw line](https://github.com/CIDARLAB/Makerfluidics/tree/master/draper/img/line.png)
 5. Open stackToPlotData.txt in ImageJ (File --> Open)
 6. Run the macro (Macros --> Run Macro)
 7. Save the plot profile data as a csv (File --> Save As)
@@ -22,9 +22,9 @@
 
 ### maxPeakAnalysis.m
 - **Input:** Plot profile csv file from step 7 of Data Preparation
-- **Output:** For each image in the stack, this script will find the maximum peak in the center fifth of the channel. Exports peak pixel intensity, location, prominence, $\chi$, and various plots
+- **Output:** For each image in the stack, this script will find the maximum peak in the center fifth of the channel. Exports peak pixel intensity, location, prominence, chi, and various plots
 - **Unit Test File:** resultsBaseline\_3.csv
 
 ### noiseFilterPeakAnalysis.m
 - **Input:** Plot profile csv file from step 7 of Data Preparation
-- **Output:** For each image in the stack, this script will find all peaks in the center fifth of the channel above {stdDevCoef} standard deviations above the mean. It then exports all peak pixel intensities, locations, prominences, $chi$ values, and various plots.
+- **Output:** For each image in the stack, this script will find all peaks in the center fifth of the channel above {stdDevCoef} standard deviations above the mean. It then exports all peak pixel intensities, locations, prominences, chi values, and various plots.
