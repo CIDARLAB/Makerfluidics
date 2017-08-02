@@ -1,0 +1,10 @@
+#!/bin/bash
+geometry=Baseline
+mkdir -p ./Consolidated/$geometry/img
+cd ./$geometry
+
+for d in ./*
+  #do (cd $d/Pos0 && echo $(pwd) && echo $(ls | grep *.tif))
+  do (cd $d/Pos0 && cp *.tif ../../../Consolidated/$geometry/img/$d.tif)
+  #do (echo $d)
+done

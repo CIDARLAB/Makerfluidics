@@ -5,7 +5,7 @@
   cubeSize = [0.01, 0.02, 0.03, 0.04, 0.05, 0.075, 0.1, 0.15, 0.2, 0.25, 0.5, 0.75, 1];
   //End mill diameter 
   endMillD = 0.79375;  //1/32"
-  aspectRatio = 2;     //Aspect ratio of test cube
+  aspectRatio = 0.5;     //Aspect ratio of test cube
   stockZ = 5.556;
 
 //Maths
