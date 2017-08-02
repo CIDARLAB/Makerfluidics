@@ -30,3 +30,4 @@
 ### noiseFilterPeakAnalysis.m
 - **Input:** Plot profile csv file from step 7 of Data Preparation
 - **Output:** For each image in the stack, this script will find all peaks in the center fifth of the channel above {stdDevCoef} standard deviations above the mean. It then exports all peak pixel intensities, locations, prominences, chi values, and various plots.
+- **Unit Test File:** 2.csv
